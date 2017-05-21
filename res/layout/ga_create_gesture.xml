@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="@string/ga_prompt_gesture_name" />
+        <TextView android:textStyle="bold" android:id="@id/gesture_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="40" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.android.settings.chameleonos.labs.gestureanywhere.GestureAnywhereGestureOverlayView android:id="@id/gestures_overlay" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:gestureStrokeWidth="16.0" android:gestureColor="@color/ga_gesture_color" android:gestureStrokeType="single" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/ButtonBar">
+        <Button android:enabled="false" android:id="@id/done" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ga_button_done" android:layout_weight="1.0" android:onClick="addGesture" />
+        <Button android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ga_button_discard" android:layout_weight="1.0" android:onClick="cancelGesture" />
+    </LinearLayout>
+</LinearLayout>

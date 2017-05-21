@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="General Interface"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:icon="@drawable/ic_settings_sound" android:id="@id/sound_settings" android:title="@string/sound_settings" android:fragment="com.android.settings.SoundSettings" />
+    <PreferenceScreen android:icon="@drawable/ic_settings_viper" android:title="@string/Viper4android">
+        <intent android:targetPackage="com.vipercn.viper4android_v2" android:action="android.intent.action.MAIN" android:targetClass="com.vipercn.viper4android_v2.activity.ViPER4Android" />
+        <PreferenceScreen android:id="@id/dormant_mode" android:title="@string/dormant_mode" android:fragment="com.android.settings.dormantmode.DormantmodeSettings" />
+    </PreferenceScreen>
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/dynamic_status_bar_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/dynamic_status_bar_color_title" android:key="dynamic_status_bar_color" android:summary="@string/dynamic_status_bar_color_summary" />
+    <CheckBoxPreference android:title="@string/dynamic_status_bar_gradient_title" android:key="dynamic_status_bar_gradient" android:summary="@string/dynamic_status_bar_gradient_summary" />
+    <CheckBoxPreference android:title="@string/dynamic_status_bar_filter_title" android:key="dynamic_status_bar_filter" android:summary="@string/dynamic_status_bar_filter_summary" />
+</PreferenceScreen>

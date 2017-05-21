@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/center_button" android:layout_width="152.0dip" android:layout_height="88.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/center_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/accessibility_widget_bg" android:scaleType="fitXY" />
+    <TextView android:textSize="21.0dip" android:textColor="#ff979797" android:ellipsize="end" android:id="@id/center_text" android:layout_width="110.0dip" android:layout_height="50.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:text="@string/accessibility_widget_assistive_light" android:maxLines="2" android:lineSpacingExtra="-2.0sp" />
+    <ImageView android:id="@id/center_icon" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginLeft="110.0dip" android:layout_marginTop="50.0dip" android:src="@drawable/accessibility_ic_light_nor" />
+</FrameLayout>

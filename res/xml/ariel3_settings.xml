@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="General Interface"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:title="Heads up notification" android:key="papyrus_heads_up">
+        <intent android:targetPackage="com.achep.headsup" android:action="android.intent.action.MAIN" android:targetClass="com.achep.acdisplay.ui.activities.MainActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:id="@id/block_settings" android:title="@string/block_settings_title" android:fragment="com.android.settings.BlockSettings" />
+    <PreferenceScreen android:title="@string/notification_panel_title" android:key="notification_panel_edit" android:fragment="com.android.settings.NotificationPanelMenu" />
+    <PreferenceScreen android:id="@id/customizable_key" android:title="@string/customizable_key_title" android:fragment="com.android.settings.customizablekey.CustomizableKeySettings" />
+</PreferenceScreen>

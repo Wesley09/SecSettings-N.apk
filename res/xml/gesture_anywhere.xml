@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/gesture_anywhere_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <SwitchPreference android:title="@string/gesture_anywhere_enabled_title" android:key="gesture_anywhere_enabled" android:summary="@string/gesture_anywhere_enabled_summary" android:defaultValue="false" />
+    <ListPreference android:persistent="false" android:entries="@array/gesture_anywhere_position_entries" android:title="@string/gesture_anywhere_position_title" android:key="gesture_anywhere_position" android:dependency="gesture_anywhere_enabled" android:dialogTitle="@string/gesture_anywhere_position_title" android:entryValues="@array/gesture_anywhere_position_values" />
+    <Preference android:title="@string/gesture_anywhere_gestures_title" android:key="gesture_anywhere_gestures" android:summary="@string/gesture_anywhere_gestures_summary" />
+    <PreferenceCategory android:title="@string/trigger_category" />
+    <com.android.settings.crdroid.SeekBarPreferenceChOS android:max="64" android:title="@string/trigger_width_title" android:key="gesture_anywhere_trigger_width" android:summary="@string/trigger_width_summary" android:dependency="gesture_anywhere_enabled" android:defaultValue="4" />
+    <com.android.settings.crdroid.SeekBarPreferenceChOS android:max="99" android:title="@string/trigger_top_title" android:key="gesture_anywhere_trigger_top" android:summary="@string/trigger_top_summary" android:dependency="gesture_anywhere_enabled" android:defaultValue="0" />
+    <com.android.settings.crdroid.SeekBarPreferenceChOS android:max="100" android:title="@string/trigger_bottom_title" android:key="gesture_anywhere_trigger_bottom" android:summary="@string/trigger_bottom_summary" android:dependency="gesture_anywhere_enabled" android:defaultValue="100" />
+</PreferenceScreen>

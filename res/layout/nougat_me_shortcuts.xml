@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.nutellame.app.Wallpapers android:background="@drawable/ic_settings_wallpaper" android:layout_width="55.0dip" android:layout_height="55.0dip" />
+            </FrameLayout>
+            <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Wallpaper" />
+        </LinearLayout>
+        <View android:layout_width="60.0dip" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.nutellame.app.Cmpart android:background="@drawable/ic_settings_cmparts" android:layout_width="55.0dip" android:layout_height="55.0dip" />
+            </FrameLayout>
+            <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CM part" />
+        </LinearLayout>
+        <View android:layout_width="60.0dip" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.nutellame.app.Owner android:background="@drawable/ic_settings_owner" android:layout_width="55.0dip" android:layout_height="55.0dip" />
+            </FrameLayout>
+            <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Owner info" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="6.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.nutellame.app.Display android:background="@drawable/me_display" android:layout_width="55.0dip" android:layout_height="55.0dip" />
+            </FrameLayout>
+            <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Display" />
+        </LinearLayout>
+        <View android:layout_width="60.0dip" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.nutellame.app.Battery android:background="@drawable/me_battery" android:layout_width="55.0dip" android:layout_height="55.0dip" />
+            </FrameLayout>
+            <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Battery" />
+        </LinearLayout>
+        <View android:layout_width="60.0dip" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.nutellame.app.About android:background="@drawable/me_about" android:layout_width="55.0dip" android:layout_height="55.0dip" />
+            </FrameLayout>
+            <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="About" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="10.0dip" />
+</LinearLayout>

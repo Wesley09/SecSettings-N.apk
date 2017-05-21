@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Dsb Settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.dsb.DynamicSystemBarHeader android:title="personalisasi tinted statusbar" android:key="dsb" titleCheckbox="Aktifkan Tinted Statusbar?" titleType="Pilih Tinted Statusbar type" titleIconDark="Pilih warna icon gelap" titleIconLight="Pilih warna icon cerah" titleTextLight="Pilih warna text cerah" titleIconType="Pilih warna icon dynamic dengan" titleTextDark="Pilih warna text gelap" />
+</PreferenceScreen>

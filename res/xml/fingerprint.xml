@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <Preference android:key="fingerprint_help" />
+    <PreferenceCategory android:title="@string/fingerprint_register">
+        <PreferenceScreen android:title="@string/fingerprint_register" android:key="register" android:summary="">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.fingerprint.FingerprintTutorial" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/fingerprint_supporting_features" android:key="support_featrue_category">
+        <CheckBoxPreference android:title="@string/fingerprint_secretbox" android:key="support_secret_box" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" />
+        <CheckBoxPreference android:title="@string/fingerprint_web" android:key="support_webpass" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" />
+    </PreferenceCategory>
+</PreferenceScreen>

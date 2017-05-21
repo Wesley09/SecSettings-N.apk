@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Dynamic System Bars"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Personalize Dynamic StatusBar">
+        <SwitchPreference android:title="Enable Dynamic System Bars?" android:key="dsb_switch" />
+        <SwitchPreference android:title="Use Gradient Filter" android:key="gradient_filter" android:summary="Use Gradient for StatusBar" />
+        <SwitchPreference android:title="Use Darkness StatusBar" android:key="darkness_filter" android:summary="Use Darkness for StatusBar" />
+        <ListPreference android:entries="@array/dsb_update_bg" android:title="Set Update Time" android:key="dsbUpdater" android:summary="Dsb update is %s" android:entryValues="@array/dsb_update_val" />
+        <ListPreference android:entries="@array/dsb_pending_interval" android:title="Set Pending Time" android:key="dsbPending" android:summary="Dsb Pending update is %s" android:defaultValue="4" android:entryValues="@array/dsb_pending_interval_val" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Personalize Dynamic NavigationBar" android:key="dsb_navbar">
+        <SwitchPreference android:title="Enable Dynamic Navigation Bars?" android:key="dsb_navbar_switch" />
+        <ListPreference android:entries="@array/dsb_navbar_method" android:title="Set Dynamic Optional of NavBars" android:key="dsbMethod" android:summary="Dsb NavBars optional is %s" android:defaultValue="0" android:entryValues="@array/dsb_navbar_method_val" />
+        <SwitchPreference android:title="Use Gradient Filter" android:key="gradient_nv_filter" android:summary="Use Gradient for NavBars" />
+        <SwitchPreference android:title="Use Darkness NavBars" android:key="darkness_nv_filter" android:summary="Use Darknes for NavBars" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="General Interface"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:id="@id/airplane_mode" android:title="@string/airplane_mode" android:fragment="com.android.settings.AirplaneModeSettings" />
+    <PreferenceScreen android:id="@id/wifi_settings" android:title="@string/wifi_settings_title" android:summary="@string/tap_to_configure" android:fragment="com.android.settings.wifi.WifiSettings" />
+    <PreferenceScreen android:id="@id/wifi_ap_settings" android:title="@string/wifi_tether_checkbox_text" android:fragment="com.android.settings.wifi.mobileap.WifiApSettings" />
+    <PreferenceScreen android:id="@id/bluetooth_settings" android:title="@string/bluetooth_settings_title" android:summary="@string/tap_to_configure" android:fragment="com.android.settings.bluetooth.BluetoothSettings" />
+    <PreferenceScreen android:id="@id/data_usage_settings" android:title="@string/data_usage_summary_title" android:fragment="com.android.settings.DataUsageSummary" />
+    <PreferenceScreen android:id="@id/wireless_settings" android:title="@string/more_settings" android:fragment="com.android.settings.WirelessSettings" android:breadCrumbTitle="@string/wireless_networks_settings_title" />
+    <PreferenceScreen android:id="@id/samba_settings" android:title="@string/samba_settings_title" android:fragment="com.android.settings.SambaSettings" />
+    <PreferenceScreen android:id="@id/header_nearby_settings" android:title="@string/allshare_nearby" android:fragment="com.android.settings.nearby.NearbySettings" android:breadCrumbTitle="@string/allshare_nearby" />
+    <PreferenceScreen android:id="@id/dmr_settings" android:title="@string/dmr_title" android:fragment="com.android.settings.dmr.DMRSettings" />
+</PreferenceScreen>

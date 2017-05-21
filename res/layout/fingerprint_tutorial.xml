@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="19.0dip" android:id="@id/fingerprinttutorial_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fingerprint_layout_marginLeft" android:layout_marginTop="@dimen/fingerprint_layout_marginTop" android:layout_marginRight="@dimen/fingerprint_layout_marginRight" android:text="@string/fingerprint_tutorial" />
+    <ImageView android:layout_gravity="center" android:id="@id/fingerprinttutorial_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fingerprinttutorial_image_layout_marginTop" android:src="@drawable/fingerprint_register_guideimg" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="left" android:id="@id/fingerprinttutorial_message_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fingerprint_layout_marginLeft" android:layout_marginTop="@dimen/fingerprinttutorial_message_layout_marginTop" android:src="@drawable/fingerprint_register_list_dot" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="18.0dip" android:id="@id/fingerprinttutorial_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fingerprinttutorial_message_layout_marginTop" android:layout_marginRight="@dimen/fingerprint_layout_marginRight" android:text="@string/fingerprint_tutorial_summary" android:layout_toRightOf="@id/fingerprinttutorial_message_image" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="left" android:id="@id/fingerprinttutorial_message_image_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fingerprint_layout_marginLeft" android:layout_marginTop="@dimen/fingerprint_message_between_margin" android:src="@drawable/fingerprint_register_list_dot" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="18.0dip" android:id="@id/fingerprinttutorial_message_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fingerprint_message_between_margin" android:layout_marginRight="@dimen/fingerprint_layout_marginRight" android:text="@string/fingerprint_tutorial_summary_2" android:layout_toRightOf="@id/fingerprinttutorial_message_image_2" />
+    </RelativeLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" style="@style/SecurityPreferenceButtonContainer">
+        <Button android:id="@id/fingerprinttutorial_cancel" android:text="@string/lockpassword_cancel_label" style="@style/SecurityPreferenceButton" />
+        <Button android:id="@id/fingerprinttutorial_continue" android:text="@string/lockpassword_continue_label" style="@style/SecurityPreferenceButton" />
+    </LinearLayout>
+</LinearLayout>

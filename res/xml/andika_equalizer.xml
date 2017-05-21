@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="Music Visualizer" android:key="show_equalizer" android:summary="Enable Notification Panel Music Visualizer" />
+    <ListPreference android:entries="@array/equalizer_style_entries" android:title="Choose Visualizer Style" android:key="equalizer_visualizer_style" android:dependency="show_equalizer" android:entryValues="@array/equalizer_style_values" />
+</PreferenceScreen>

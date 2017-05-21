@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:id="@id/dsa_init_inform" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" style="?android:attr/textAppearanceMedium" />
+        <CheckBox android:textAppearance="?android:textAppearanceMedium" android:textSize="18.0sp" android:id="@id/donotshowagain" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="10.0dip" android:text="@string/dsa_do_not_show_again" />
+    </LinearLayout>
+</ScrollView>

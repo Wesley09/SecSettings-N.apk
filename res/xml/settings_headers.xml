@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:icon="@drawable/ic_ariel1" android:id="@id/ariel1_settings" android:title="@string/ariel1_settings" android:summary="@string/ariel1_summary" android:fragment="com.android.settings.Ariel1" />
+    <header android:icon="@drawable/ic_ariel2" android:id="@id/sound_settings" android:title="@string/ariel2_settings" android:summary="@string/ariel2_summary" android:fragment="com.android.settings.SoundSettings" />
+    <header android:icon="@drawable/ic_ariel3" android:id="@id/ariel3_settings" android:title="@string/ariel3_settings" android:summary="@string/ariel3_summary" android:fragment="com.android.settings.Ariel3" />
+    <header android:icon="@drawable/ic_ariel4" android:id="@id/display_settings" android:title="@string/ariel4_settings" android:summary="@string/ariel4_summary" android:fragment="com.android.settings.DisplaySettings" />
+    <header android:icon="@drawable/ic_ariel5" android:id="@id/ariel5_settings" android:title="@string/ariel5_settings" android:summary="@string/ariel5_summary" android:fragment="com.android.settings.Ariel5" />
+    <header android:icon="@drawable/ic_ariel6" android:id="@id/ariel6_settings" android:title="@string/ariel6_settings" android:summary="@string/ariel6_summary" android:fragment="com.android.settings.Ariel6" />
+    <header android:icon="@drawable/ic_ariel7" android:id="@id/ariel7_settings" android:title="@string/ariel7_settings" android:summary="@string/ariel7_summary" android:fragment="com.android.settings.Ariel7" />
+    <header android:icon="@drawable/ic_ariel8" android:id="@id/application_settings" android:title="@string/ariel8_settings" android:summary="@string/ariel8_summary" android:fragment="com.android.settings.applications.ManageApplications" />
+    <header android:icon="@drawable/ic_ariel9" android:id="@id/ariel9_settings" android:title="@string/ariel9_settings" android:summary="@string/ariel9_summary" android:fragment="com.android.settings.Ariel9" />
+    <header android:icon="@drawable/ic_ariel10" android:id="@id/ariel10_settings" android:title="@string/ariel10_settings" android:summary="@string/ariel10_summary" android:fragment="com.android.settings.Ariel10" />
+    <header android:icon="@drawable/ic_ariel11" android:id="@id/accessibility_settings" android:title="@string/ariel11_settings" android:summary="@string/ariel11_summary" android:fragment="com.android.settings.AccessibilitySettings" />
+    <header android:icon="@drawable/ic_ariel12" android:id="@id/ariel12_settings" android:title="@string/ariel12_settings" android:summary="@string/ariel12_summary" android:fragment="com.android.settings.Ariel12" />
+    <header android:icon="@drawable/ic_ariel13" android:id="@id/ariel13_settings" android:title="@string/ariel13_settings" android:summary="@string/ariel13_summary" android:fragment="com.android.settings.Ariel13" />
+    <header android:icon="@drawable/ic_ariel14" android:id="@id/ariel14_settings" android:title="@string/ariel14_settings" android:summary="@string/ariel14_summary" android:fragment="com.android.settings.Ariel14" />
+    <header android:icon="@drawable/ic_settings_development" android:id="@id/development_settings" android:title="@string/development_settings_title" android:fragment="com.android.settings.DevelopmentSettings" />
+    <header android:icon="@drawable/ic_settings_development" android:id="@id/development_settings_orange" android:title="@string/development_settings_title_orange" android:fragment="com.android.settings.DevelopmentSettings" />
+    <header android:icon="@drawable/ic_ariel15" android:id="@id/about_settings" android:title="@string/ariel15_settings" android:summary="@string/ariel15_summary" android:fragment="com.android.settings.DeviceInfoSettings" />
+</preference-headers>

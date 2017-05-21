@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_marginTop="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.MultiSimCardManagerPreference android:title="SIM 1" android:key="sim1" android:summary="PLMN" />
+    <com.android.settings.MultiSimCardManagerPreference android:title="SIM 2" android:key="sim2" android:summary="PLMN" />
+    <PreferenceCategory android:title="@string/sim_card_manager_prefered_title" android:key="general" />
+    <com.android.settings.SimListPreference android:entries="@array/prefered_call_entries" android:title="@string/sim_card_manager_prefered_voice_call" android:key="voice_call" android:summary="@string/sim_card_manager_prefered_current_network" android:entryValues="@array/prefered_call_values" />
+    <com.android.settings.SimListPreference android:entries="@array/prefered_call_entries" android:title="@string/sim_card_manager_prefered_video_call" android:key="video_call" android:summary="@string/sim_card_manager_prefered_current_network" android:entryValues="@array/prefered_call_values" />
+    <com.android.settings.SimListPreference android:entries="@array/data_service_entries" android:title="@string/data_service_network" android:key="data_service_network" android:summary="@string/data_service_network_summary" android:entryValues="@array/data_service_values" />
+    <PreferenceCategory android:title="@string/tts_general_section_title" android:key="general" />
+    <CheckBoxPreference android:title="@string/paging_mode_title" android:key="paging_mode" android:summary="@string/paging_mode_summary" />
+    <PreferenceScreen android:persistent="false" android:title="@string/dsa_dual_sim_always_on_swa" android:key="button_dsa_key" android:summary="@string/dsa_dual_sim_always_on_summary" />
+</PreferenceScreen>

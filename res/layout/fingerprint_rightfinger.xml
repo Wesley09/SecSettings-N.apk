@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fingerprintselect_layout_marginLeft" android:layout_marginTop="@dimen/fingerprintselect_layout_marginTop" android:layout_marginRight="@dimen/fingerprintselect_layout_marginRight">
+        <ImageView android:id="@id/righthand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fingerprint_register_hand_right" />
+        <ImageView android:id="@id/righthand_thumb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="263.0dip" android:layout_marginTop="155.0dip" android:src="@drawable/fingerprint_register_btn_add" />
+        <ImageView android:id="@id/righthand_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="189.0dip" android:layout_marginTop="25.0dip" android:src="@drawable/fingerprint_register_btn_add" />
+        <ImageView android:id="@id/righthand_middle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="124.0dip" android:layout_marginTop="0.0dip" android:src="@drawable/fingerprint_register_btn_add" />
+        <ImageView android:id="@id/righthand_ring" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="58.0dip" android:layout_marginTop="25.0dip" android:src="@drawable/fingerprint_register_btn_add" />
+        <ImageView android:id="@id/righthand_little" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="97.0dip" android:src="@drawable/fingerprint_register_btn_add" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fingerprintselect_layout_marginLeft" android:layout_marginTop="@dimen/fingerprintselect_image_layout_marginTop" android:layout_marginRight="@dimen/fingerprintselect_layout_marginRight">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="19.0dip" android:textStyle="bold" android:textColor="#ffa3a3a3" android:id="@id/lefthand_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fingerprint_left" />
+        <ImageView android:id="@id/lefthand_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:src="@drawable/fingerprint_pgnavi_dim" android:layout_toRightOf="@id/lefthand_text" />
+        <ImageView android:id="@id/righthand_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/fingerprint_pgnavi_dim" android:layout_toRightOf="@id/lefthand_image" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="19.0dip" android:textStyle="bold" android:textColor="#ffa3a3a3" android:id="@id/righthand_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fingerprint_right" android:layout_toRightOf="@id/righthand_image" />
+    </RelativeLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" style="@style/SecurityPreferenceButtonContainer">
+        <Button android:id="@id/selectfinger_cancel" android:text="@string/fingerprint_cancel" style="@style/SecurityPreferenceButton" />
+        <Button android:id="@id/selectfinger_continue" android:text="@string/fingerprint_ok" style="@style/SecurityPreferenceButton" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="General Interface"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:id="@id/onehand_settings" android:title="@string/onehand_settings_title" android:fragment="com.android.settings.OneHandSettings" />
+    <PreferenceScreen android:title="@string/Viper4android">
+        <intent android:targetPackage="com.vipercn.viper4android_v2" android:action="android.intent.action.MAIN" android:targetClass="com.vipercn.viper4android_v2.activity.ViPER4Android" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/xposedinstaller">
+        <intent android:targetPackage="de.robv.android.xposed.installer" android:action="android.intent.action.MAIN" android:targetClass="de.robv.android.xposed.installer.WelcomeActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Blurr" android:key="anu" android:fragment="in.maad.reborn.serajr.blurred.blur" />
+    <PreferenceScreen android:title="Dynamic SystemBars" android:summary="Dynamic color for statusbar" android:fragment="com.android.settings.dsb.DsbSettings" />
+    <PreferenceScreen android:title="@string/lcd_density_title" android:key="lcd_density_setup" android:fragment="com.android.settings.rhud6661.fragments.DensityChanger" />
+    <PreferenceScreen android:title="Visualizer" android:key="visualizer" android:fragment="com.android.settings.mod.Equalizer" />
+</PreferenceScreen>

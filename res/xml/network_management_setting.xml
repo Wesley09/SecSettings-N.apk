@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.SimListPreference android:entries="@array/register_icon_entries" android:title="@string/register_icon_title" android:key="select_icon" android:summary="@string/register_icon_summary" android:defaultValue="0" android:dialogTitle="@string/register_icon_title" android:entryValues="@array/register_icon_values" />
+    <EditTextPreference android:selectAllOnFocus="true" android:maxLength="10" android:capitalize="sentences" android:title="@string/register_name_title" android:key="select_name" android:summary="@string/register_name_summary" android:inputType="textCapSentences" />
+</PreferenceScreen>

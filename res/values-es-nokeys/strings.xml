@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="applications_settings_summary">Administrar aplicaciones</string>
+    <string name="ariel1_summary">Wi-Fi, Bluetooth, Data Usage, Airplane mode</string>
+    <string name="ariel2_summary">Sounds, Vibration, Do not disturb</string>
+    <string name="ariel3_summary">Block, allow, prioritize</string>
+    <string name="ariel4_summary">Brightness, Font, other options</string>
+    <string name="ariel5_summary">Wallpapers, themes, icons</string>
+    <string name="ariel6_summary">App Lock, Games, One-handed operation, other features</string>
+    <string name="ariel7_summary">Battery, Storage, RAM, Device security</string>
+    <string name="ariel8_summary">Default applications, App permissions, Uninstall apps</string>
+    <string name="ariel9_summary">Lockscreen pin, Security, Search my phone</string>
+    <string name="ariel10_summary">Email, Accounts, Sync</string>
+    <string name="ariel11_summary">Gesture, Sighp, Hearing, Balance, Dexterity</string>
+    <string name="ariel12_summary">Language and input, Date and time, Locations</string>
+    <string name="ariel13_summary">Updates system, Backup and Restore</string>
+    <string name="ariel14_summary">User Guide for operation your device</string>
+    <string name="ariel15_summary">Status, Licensi informations, Device name</string>
+</resources>

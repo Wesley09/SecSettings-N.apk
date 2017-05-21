@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ums="http://schemas.android.com/apk/res/com.android.settings">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/sim_list_view_row_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true" />
+    <com.android.settings.widget.list.CheckableRelativeLayout android:ellipsize="marquee" android:id="@id/radio_text_button" android:paddingLeft="3.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:layout_centerVertical="true" ums:checkable="@id/check">
+        <RelativeLayout android:id="@id/info_latyou" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/check" android:layout_centerVertical="true">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:ellipsize="marquee" android:id="@id/radio_text_title" android:paddingLeft="3.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/check" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/sim_list_summary" android:paddingLeft="5.0dip" android:paddingRight="7.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/check" android:layout_below="@id/radio_text_title" />
+        </RelativeLayout>
+        <RadioButton android:gravity="center_vertical" android:id="@id/check" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </com.android.settings.widget.list.CheckableRelativeLayout>
+</LinearLayout>

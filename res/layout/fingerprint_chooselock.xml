@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="19.0dip" android:id="@id/chooselock_fingerprint_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fingerprint_layout_marginLeft" android:layout_marginTop="@dimen/fingerprint_layout_marginTop" android:layout_marginRight="@dimen/fingerprint_layout_marginRight" android:text="@string/fingerprint_unlock" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fingerprint_layout_marginLeft" android:layout_marginTop="70.0dip" android:layout_marginRight="@dimen/fingerprint_layout_marginRight">
+        <ImageView android:layout_gravity="center" android:id="@id/chooselock_fingerprint_hands" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fingerprint_register_hands" />
+        <ImageView android:id="@id/chooselock_fingerprint_lefthand_thumb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="95.0dip" />
+        <ImageView android:id="@id/chooselock_fingerprint_lefthand_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="45.0dip" android:layout_marginTop="10.0dip" />
+        <ImageView android:id="@id/chooselock_fingerprint_lefthand_middle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="77.0dip" android:layout_marginTop="0.0dip" />
+        <ImageView android:id="@id/chooselock_fingerprint_lefthand_ring" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="110.0dip" android:layout_marginTop="11.0dip" />
+        <ImageView android:id="@id/chooselock_fingerprint_lefthand_little" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="140.0dip" android:layout_marginTop="45.0dip" />
+        <ImageView android:id="@id/chooselock_fingerprint_righthand_little" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="175.0dip" android:layout_marginTop="45.0dip" />
+        <ImageView android:id="@id/chooselock_fingerprint_righthand_ring" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="203.0dip" android:layout_marginTop="13.0dip" />
+        <ImageView android:id="@id/chooselock_fingerprint_righthand_middle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="237.0dip" android:layout_marginTop="0.0dip" />
+        <ImageView android:id="@id/chooselock_fingerprint_righthand_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="267.0dip" android:layout_marginTop="15.0dip" />
+        <ImageView android:id="@id/chooselock_fingerprint_righthand_thumb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="305.0dip" android:layout_marginTop="93.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fingerprint_layout_marginLeft" android:layout_marginTop="@dimen/fingerprinttutorial_message_layout_marginTop" android:layout_marginRight="@dimen/fingerprint_layout_marginRight">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="18.0dip" android:gravity="center" android:id="@id/chooselock_fingerprint_hands" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/fingerprint_left" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="18.0dip" android:gravity="center" android:id="@id/chooselock_fingerprint_hands" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginLeft="166.0dip" android:text="@string/fingerprint_right" android:layout_toRightOf="@id/chooselock_fingerprint_hands" />
+    </RelativeLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" style="@style/PreferenceThreeButtonContainer">
+        <Button android:id="@id/chooselock_fingerprint_cancel" android:text="@string/lockpassword_cancel_label" style="@style/SecurityPreferenceButton" />
+        <Button android:id="@id/chooselock_fingerprint_register" android:text="@string/fingerprint_register" style="@style/SecurityPreferenceButton" />
+        <Button android:id="@id/chooselock_fingerprint_continue" android:text="@string/font_size_save" style="@style/SecurityPreferenceButton" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/themes_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/title_general" android:key="lockscreen_general_category">
+        <CheckBoxPreference android:title="@string/progressbar_mirror_title" android:key="progressbar_mirror" />
+        <CheckBoxPreference android:title="@string/progressbar_reverse_title" android:key="progressbar_reverse" />
+        <com.android.settings.cyanogenmod.NEWSeekBarPreference android:persistent="false" android:max="31" android:title="@string/progressbar_speed_title" android:key="progressbar_speed" android:summary="@string/progressbar_speed_title" android:defaultValue="10" />
+        <com.android.settings.cyanogenmod.NEWSeekBarPreference android:persistent="false" android:max="12" android:title="@string/progressbar_width_title" android:key="progressbar_width" android:summary="@string/progressbar_width_title" android:defaultValue="4" />
+        <com.android.settings.cyanogenmod.NEWSeekBarPreference android:persistent="false" android:max="48" android:title="@string/progressbar_length_title" android:key="progressbar_length" android:summary="@string/progressbar_length_title" android:defaultValue="10" />
+        <com.android.settings.cyanogenmod.NEWSeekBarPreference android:persistent="false" android:max="12" android:title="@string/progressbar_count_title" android:key="progressbar_count" android:summary="@string/progressbar_count_title" android:defaultValue="6" />
+        <net.margaritov.preference.colorpicker.ColorPickerPreference android:title="@string/progressbar_color_1_title" android:key="progressbar_color_1" android:defaultValue="\#ffff00" />
+        <net.margaritov.preference.colorpicker.ColorPickerPreference android:title="@string/progressbar_color_2_title" android:key="progressbar_color_2" android:defaultValue="\#99cc00" />
+        <net.margaritov.preference.colorpicker.ColorPickerPreference android:title="@string/progressbar_color_3_title" android:key="progressbar_color_3" android:defaultValue="\#aa66cc" />
+        <net.margaritov.preference.colorpicker.ColorPickerPreference android:title="@string/progressbar_color_4_title" android:key="progressbar_color_4" android:defaultValue="\#00ddff" />
+    </PreferenceCategory>
+</PreferenceScreen>

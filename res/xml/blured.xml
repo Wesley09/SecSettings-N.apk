@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="BLURRED"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="Blurr" android:key="anu" />
+    <ListPreference android:entries="@array/blurskalaentri" android:title="@string/blur_scale_title" android:key="blurskala" android:defaultValue="20" android:dialogTitle="Animation Style" android:entryValues="@array/blurskalavalue" />
+    <ListPreference android:entries="@array/blurradiusentri" android:title="@string/blur_radius_title" android:key="blurradius" android:defaultValue="4" android:dialogTitle="@string/blur_radius_title" android:entryValues="@array/blurradiusvalue" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference android:title="@string/blur_dark_color_title" android:key="dark" android:defaultValue="0xAAFFFFFF" alphaSlider="false" hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference android:title="@string/blur_light_color_title" android:key="light" android:defaultValue="0xAAFFFFFF" alphaSlider="false" hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference android:title="@string/blur_mixed_color_title" android:key="mix" android:defaultValue="0xAAFFFFFF" alphaSlider="false" hexValue="true" />
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionBarTabStyle" parent="@android:style/Widget.DeviceDefault.ActionBar.TabView">
+        <item name="android:padding">0.0dip</item>
+        <item name="android:layout_margin">0.0dip</item>
+        <item name="android:maxWidth">90.0dip</item>
+        <item name="android:minWidth">79.0dip</item>
+    </style>
+</resources>

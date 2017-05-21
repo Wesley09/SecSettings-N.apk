@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:layout_marginTop="17.0dip" android:layout_marginBottom="6.5999756dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/sim_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.299988dip">
+            <FrameLayout android:layout_gravity="center" android:layout_width="77.29999dip" android:layout_height="81.29999dip" android:layout_marginBottom="11.899994dip">
+                <Button android:gravity="center" android:layout_gravity="center" android:id="@id/no_sim1_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="26.599976dip" android:textColor="#ff000000" android:gravity="center" android:paddingLeft="18.599976dip" android:paddingTop="31.899994dip" android:layout_width="58.5dip" android:layout_height="67.79999dip" android:text="@string/icon_number_1" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center" android:layout_width="77.29999dip" android:layout_height="81.29999dip">
+                <Button android:gravity="center" android:layout_gravity="center" android:id="@id/no_sim2_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="26.599976dip" android:textColor="#ff000000" android:gravity="center" android:paddingLeft="18.599976dip" android:paddingTop="31.899994dip" android:layout_width="58.5dip" android:layout_height="67.79999dip" android:text="@string/icon_number_2" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="top" android:orientation="vertical" android:id="@id/simLayout" android:layout_width="319.89844dip" android:layout_height="174.6dip" android:layout_marginLeft="17.0dip" android:layout_marginRight="10.599976dip">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="18.0dip" android:gravity="center" android:background="@drawable/sim_card_management_bg_02_h" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_marginTop="3.0dip" android:text="@string/no_network_card" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
